@@ -1,0 +1,69 @@
+.search
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.search input 
+{
+    width: 300px;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 6px 10px;
+    border-radius: 30px;
+}
+.search i {
+    position: absolute;
+    margin-left: 270px;
+}
+li {
+    font-family: "Robot";
+}
+ul {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav ul{
+    list-style-type: none;
+}
+nav li {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+nav ul::first-letter{
+content: "";
+display: table;
+clear: both;
+}
+nav {
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(255, 254, 254);
+    position: sticky;
+    top: 0px;
+}
+nav a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+    font-family: "open_sans";
+    font-size: 200%;
+    font-family: Helvetica;
+}
+nav a:hover{
+color: rgb(0, 65, 112);
+border-bottom: 2px solid rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+color: white;
+}

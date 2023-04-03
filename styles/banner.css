@@ -1,0 +1,26 @@
+.banner{    
+background-image: url("../images/mbappe.png");
+height: 80vh;
+background-size: cover;
+background-position: top;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+} 
+h1{
+    color: white;
+    font-size: 100px;
+    justify-content: center;
+    font-family: Helvetica,
+}
+h3{
+    color: white;
+    font-family: Helvetica;
+}
+h2{
+    text-decoration: underline;
+}
+h4{
+    text-decoration: underline;
+}
